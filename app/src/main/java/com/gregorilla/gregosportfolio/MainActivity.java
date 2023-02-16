@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         };
 
         ProjectsAdapter adapter = new ProjectsAdapter(projects);
-
         list.setAdapter(adapter);
     }
 }
